@@ -1,0 +1,13 @@
+public class salary {
+   public static void main(String[] args) {
+       int Basicsalary = 12000;
+       int DA = ( Basicsalary * 12)/100;
+       int HRA = 150;
+       int TA = 120;
+       int Other = 450;
+       int PF = (Basicsalary * 14)/100; 
+       int IT = ( Basicsalary * 15)/100;
+       int Netsalary = Basicsalary + DA + HRA + TA + Other - (PF + IT);
+       System.out.println("The net salary of an employee is: " + Netsalary);
+    }  
+ }
